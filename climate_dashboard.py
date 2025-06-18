@@ -388,3 +388,28 @@ with tab4:
             - Aggressive: multiply previous year by 1.20 (20% increase)
         - This compounds annually, so savings grow exponentially.
         """)
+
+
+# Footer
+footer = """
+<style>
+footer { visibility: hidden; }
+.footer-style {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+    z-index: 1000;
+}
+</style>
+<div class="footer-style">
+    © Copyright 2025 Youmnah Mungur - All rights reserved.
+</div>
+"""
+st.markdown(footer, unsafe_allow_html=True)
