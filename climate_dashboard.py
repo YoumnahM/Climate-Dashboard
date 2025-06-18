@@ -399,7 +399,7 @@ footer { visibility: hidden; }
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #001f3f;
+    background-color:#5c8560;
     color: white;
     text-align: center;
     padding: 10px;
